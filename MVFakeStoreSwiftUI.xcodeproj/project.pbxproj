@@ -7,18 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		75DFD5972C9FA76000847662 /* MVFakeNewsSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75DFD5962C9FA76000847662 /* MVFakeNewsSwiftUIApp.swift */; };
 		75DFD5992C9FA76000847662 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75DFD5982C9FA76000847662 /* ContentView.swift */; };
 		75DFD59B2C9FA76100847662 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75DFD59A2C9FA76100847662 /* Assets.xcassets */; };
 		75DFD59E2C9FA76100847662 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75DFD59D2C9FA76100847662 /* Preview Assets.xcassets */; };
+		75DFD5A62C9FA94100847662 /* StoreController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75DFD5A52C9FA94100847662 /* StoreController.swift */; };
+		75DFD5A82C9FA9EF00847662 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75DFD5A72C9FA9EF00847662 /* Product.swift */; };
+		75DFD5AC2C9FAC7700847662 /* Webservice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75DFD5AB2C9FAC7700847662 /* Webservice.swift */; };
+		75DFD5AE2CA0766400847662 /* MVFakeStoreSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75DFD5AD2CA0766400847662 /* MVFakeStoreSwiftUIApp.swift */; };
+		75DFD5B12CA07BC300847662 /* NumberFormatter+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75DFD5B02CA07BC300847662 /* NumberFormatter+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		75DFD5932C9FA75F00847662 /* MVFakeNewsSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MVFakeNewsSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		75DFD5962C9FA76000847662 /* MVFakeNewsSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVFakeNewsSwiftUIApp.swift; sourceTree = "<group>"; };
+		75DFD5932C9FA75F00847662 /* MVFakeStoreSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MVFakeStoreSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		75DFD5982C9FA76000847662 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		75DFD59A2C9FA76100847662 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		75DFD59D2C9FA76100847662 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		75DFD5A52C9FA94100847662 /* StoreController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreController.swift; sourceTree = "<group>"; };
+		75DFD5A72C9FA9EF00847662 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		75DFD5AB2C9FAC7700847662 /* Webservice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Webservice.swift; sourceTree = "<group>"; };
+		75DFD5AD2CA0766400847662 /* MVFakeStoreSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVFakeStoreSwiftUIApp.swift; sourceTree = "<group>"; };
+		75DFD5B02CA07BC300847662 /* NumberFormatter+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NumberFormatter+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,7 +43,7 @@
 		75DFD58A2C9FA75F00847662 = {
 			isa = PBXGroup;
 			children = (
-				75DFD5952C9FA75F00847662 /* MVFakeNewsSwiftUI */,
+				75DFD5952C9FA75F00847662 /* MVFakeStoreSwiftUI */,
 				75DFD5942C9FA75F00847662 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,20 +51,24 @@
 		75DFD5942C9FA75F00847662 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				75DFD5932C9FA75F00847662 /* MVFakeNewsSwiftUI.app */,
+				75DFD5932C9FA75F00847662 /* MVFakeStoreSwiftUI.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		75DFD5952C9FA75F00847662 /* MVFakeNewsSwiftUI */ = {
+		75DFD5952C9FA75F00847662 /* MVFakeStoreSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
-				75DFD5962C9FA76000847662 /* MVFakeNewsSwiftUIApp.swift */,
+				75DFD5AF2CA07B8900847662 /* Extensions */,
+				75DFD5AA2C9FABD300847662 /* Controller */,
+				75DFD5A92C9FAA7000847662 /* Service */,
+				75DFD5A42C9FA90900847662 /* Models */,
+				75DFD5AD2CA0766400847662 /* MVFakeStoreSwiftUIApp.swift */,
 				75DFD5982C9FA76000847662 /* ContentView.swift */,
 				75DFD59A2C9FA76100847662 /* Assets.xcassets */,
 				75DFD59C2C9FA76100847662 /* Preview Content */,
 			);
-			path = MVFakeNewsSwiftUI;
+			path = MVFakeStoreSwiftUI;
 			sourceTree = "<group>";
 		};
 		75DFD59C2C9FA76100847662 /* Preview Content */ = {
@@ -67,12 +79,44 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		75DFD5A42C9FA90900847662 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				75DFD5A72C9FA9EF00847662 /* Product.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		75DFD5A92C9FAA7000847662 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				75DFD5AB2C9FAC7700847662 /* Webservice.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		75DFD5AA2C9FABD300847662 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				75DFD5A52C9FA94100847662 /* StoreController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		75DFD5AF2CA07B8900847662 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				75DFD5B02CA07BC300847662 /* NumberFormatter+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		75DFD5922C9FA75F00847662 /* MVFakeNewsSwiftUI */ = {
+		75DFD5922C9FA75F00847662 /* MVFakeStoreSwiftUI */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 75DFD5A12C9FA76100847662 /* Build configuration list for PBXNativeTarget "MVFakeNewsSwiftUI" */;
+			buildConfigurationList = 75DFD5A12C9FA76100847662 /* Build configuration list for PBXNativeTarget "MVFakeStoreSwiftUI" */;
 			buildPhases = (
 				75DFD58F2C9FA75F00847662 /* Sources */,
 				75DFD5902C9FA75F00847662 /* Frameworks */,
@@ -82,9 +126,9 @@
 			);
 			dependencies = (
 			);
-			name = MVFakeNewsSwiftUI;
+			name = MVFakeStoreSwiftUI;
 			productName = MVFakeNewsSwiftUI;
-			productReference = 75DFD5932C9FA75F00847662 /* MVFakeNewsSwiftUI.app */;
+			productReference = 75DFD5932C9FA75F00847662 /* MVFakeStoreSwiftUI.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +146,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 75DFD58E2C9FA75F00847662 /* Build configuration list for PBXProject "MVFakeNewsSwiftUI" */;
+			buildConfigurationList = 75DFD58E2C9FA75F00847662 /* Build configuration list for PBXProject "MVFakeStoreSwiftUI" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,7 +159,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				75DFD5922C9FA75F00847662 /* MVFakeNewsSwiftUI */,
+				75DFD5922C9FA75F00847662 /* MVFakeStoreSwiftUI */,
 			);
 		};
 /* End PBXProject section */
@@ -137,8 +181,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				75DFD5A62C9FA94100847662 /* StoreController.swift in Sources */,
+				75DFD5AE2CA0766400847662 /* MVFakeStoreSwiftUIApp.swift in Sources */,
+				75DFD5A82C9FA9EF00847662 /* Product.swift in Sources */,
 				75DFD5992C9FA76000847662 /* ContentView.swift in Sources */,
-				75DFD5972C9FA76000847662 /* MVFakeNewsSwiftUIApp.swift in Sources */,
+				75DFD5AC2C9FAC7700847662 /* Webservice.swift in Sources */,
+				75DFD5B12CA07BC300847662 /* NumberFormatter+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,7 +319,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"MVFakeNewsSwiftUI/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"MVFakeStoreSwiftUI/Preview Content\"";
 				DEVELOPMENT_TEAM = F33K9P37S6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -285,7 +333,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.adamantiummwttle.MVFakeNewsSwiftUI;
+				PRODUCT_BUNDLE_IDENTIFIER = com.adamantiummwttle.MVFakeStoreSwiftUI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -300,7 +348,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"MVFakeNewsSwiftUI/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"MVFakeStoreSwiftUI/Preview Content\"";
 				DEVELOPMENT_TEAM = F33K9P37S6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -314,7 +362,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.adamantiummwttle.MVFakeNewsSwiftUI;
+				PRODUCT_BUNDLE_IDENTIFIER = com.adamantiummwttle.MVFakeStoreSwiftUI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -325,7 +373,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		75DFD58E2C9FA75F00847662 /* Build configuration list for PBXProject "MVFakeNewsSwiftUI" */ = {
+		75DFD58E2C9FA75F00847662 /* Build configuration list for PBXProject "MVFakeStoreSwiftUI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				75DFD59F2C9FA76100847662 /* Debug */,
@@ -334,7 +382,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		75DFD5A12C9FA76100847662 /* Build configuration list for PBXNativeTarget "MVFakeNewsSwiftUI" */ = {
+		75DFD5A12C9FA76100847662 /* Build configuration list for PBXNativeTarget "MVFakeStoreSwiftUI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				75DFD5A22C9FA76100847662 /* Debug */,

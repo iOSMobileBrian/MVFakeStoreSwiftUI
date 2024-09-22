@@ -8,10 +8,12 @@
 import SwiftUI
 
 @main
-struct MVFakeNewsSwiftUIApp: App {
+struct MVFakeStoreSwiftUIApp: App {
+    
+    @StateObject private var storeController = StoreController(webservice: Webservice())
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView().environmentObject(storeController)
         }
     }
 }
